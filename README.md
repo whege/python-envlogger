@@ -6,4 +6,4 @@ This project stemmed from some code I wrote for work. While I needed logs to pri
 
 However, I didn't want to rewrite or reconfigure my Logger or logging statements when pushing to deployment. 
 
-To that end, I created this module as an extenion of the built-in logging package in Python, where the Logger class reads the environment from a config file and directs the output appropriately.
+To that end, I created this module as an extenion of the built-in logging package in Python, with the main difference being that the Logger class reads the environment from a config file and directs the output appropriately.
